@@ -1,2 +1,141 @@
-# Financial-AI-Security
+# Financial AI Security
 A comprehensive repository of practical adversarial ML/DL projects, covering offensive (evasion, extraction, inference, poisoning) and defensive (robust training, input filtering, API red teaming) techniques, starting with credit scoring models and expanding to broader financial AI systems security.
+
+---
+
+## Overview
+
+This repository focuses on **Financial AI Security** in the context of **credit scoring models**.  
+We start with **adversarial attacks** on tabular data models, later expanding into **model extraction**, **inference**, **poisoning**, and **defense strategies**.
+
+The primary goal is to:
+- **Simulate realistic attack scenarios** on financial AI systems.
+- **Design and test defensive mechanisms** to harden these systems against adversarial threats.
+
+---
+
+## Current Contents
+
+### 1. Evasion Attacks on Credit Scoring Models (Tabular Data)
+**White-box Attacks**
+- Fast Gradient Method (FGM)
+- Basic Iterative Method (BIM)
+- Projected Gradient Descent (PGD)
+- Carlini & Wagner (C&W)
+- ElasticNet Attack (EAD)
+- Jacobian-based Saliency Map Attack (JSMA)
+- DeepFool
+
+**Black-box Attacks**
+- Zeroth Order Optimization (ZOO)
+- HopSkipJump (HSJ)
+- Boundary Attack
+
+All attacks implemented using:
+- **[Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)**
+- **[Foolbox](https://github.com/bethgelab/foolbox)** (planned for cross-framework comparison)
+
+Dataset: **German Credit Dataset** (tabular classification task)
+
+---
+
+## Future Roadmap
+
+### Offensive Security
+- **Model Extraction Attacks**
+  - API-based extraction
+  - Query-based imitation
+- **Inference Attacks**
+  - Membership inference
+  - Attribute inference
+- **Poisoning Attacks**
+  - Data poisoning
+  - Backdoor insertion
+
+### Defensive Security
+- **Robust Training**
+  - Adversarial training
+  - Defensive distillation
+- **Input Filtering**
+  - Outlier detection
+  - Adversarial example detection
+- **API Red Teaming**
+  - Simulated malicious API consumers
+  - Throttling and query monitoring
+
+### Expansion Beyond Credit Scoring
+- Image-based AI systems
+- NLP-based AI systems
+- Agentic AI security scenarios
+
+---
+
+## Project Structure
+
+ - credit_scoring/
+   - models/
+     - credit_scoring_model_german_dataset---logistic_regression.ipynb
+     - credit_scoring_model_german_dataset---random_forest.ipynb
+     - credit_scoring_model_german_dataset---xgboost.ipynb
+     - saved_models/
+       - logistic_regression.joblib
+       - random_forest.joblib
+       - xgboost.joblib
+   - attacks/
+     - evasion/
+       - white_box/
+         - art/
+           - fgm_attack-art-logistic_regression.ipynb
+           - bim_attack-art-logistic_regression.ipynb
+           - pgd_attack-art-logistic_regression.ipynb
+           - cw_attack-art-logistic_regression.ipynb
+           - ead_attack-art-logistic_regression.ipynb
+           - jsma_attack-art-logistic_regression.ipynb
+           - deepfool_attack-art-logistic_regression.ipynb
+         - foolbox/
+           - fgm_attack-foolbox-logistic_regression.ipynb
+           - bim_attack-foolbox-logistic_regression.ipynb
+           - pgd_attack-foolbox-logistic_regression.ipynb
+           - cw_attack-foolbox-logistic_regression.ipynb
+           - ead_attack-foolbox-logistic_regression.ipynb
+           - jsma_attack-foolbox-logistic_regression.ipynb
+           - deepfool_attack-foolbox-logistic_regression.ipynb
+         - README.md
+       - black_box/
+         - art/
+           - zoo_attack-art-logistic_regression.ipynb
+           - hsj_attack-art-logistic_regression.ipynb
+           - boundary_attack-art-logistic_regression.ipynb
+         - foolbox/
+           - zoo_attack-foolbox-logistic_regression.ipynb
+           - hsj_attack-foolbox-logistic_regression.ipynb
+           - boundary_attack-foolbox-logistic_regression.ipynb
+         - README.md
+     - extraction/
+       - art/
+       - foolbox/
+       - README.md
+     - inference/
+       - art/
+       - foolbox/
+       - README.md
+     - poisoning/
+       - art/
+       - foolbox/
+       - README.md
+   - defenses/
+     - art/
+       - adversarial_training_art.ipynb
+       - input_filters_art.ipynb
+     - foolbox/
+       - adversarial_training_foolbox.ipynb
+       - input_filters_foolbox.ipynb
+     - README.md
+   - offensive_tests/
+     - membership_inference_api_red_team.ipynb
+     - README.md
+   - utils/
+     - data_preprocessing.py
+     - model_utils.py
+     - attack_utils.py
+ - LICENSE
