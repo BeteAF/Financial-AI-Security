@@ -15,17 +15,17 @@ The primary goals are to:
 ### 1. Evasion Attacks on Credit Scoring Models (Tabular Data)
 **White-box Attacks**
 - Fast Gradient Method (FGM) (https://arxiv.org/abs/1412.6572)
-- Basic Iterative Method (BIM)
-- Projected Gradient Descent (PGD)
-- Carlini & Wagner (C&W)
-- ElasticNet Attack (EAD)
-- Jacobian-based Saliency Map Attack (JSMA)
-- DeepFool
+- Basic Iterative Method (BIM) (https://arxiv.org/abs/1607.02533)
+- Projected Gradient Descent (PGD) (https://arxiv.org/abs/1706.06083)
+- Carlini & Wagner (C&W) (https://arxiv.org/abs/1608.04644)
+- ElasticNet Attack (EAD) (https://arxiv.org/abs/1709.04114)
+- Jacobian-based Saliency Map Attack (JSMA) ()
+- DeepFool (https://arxiv.org/abs/1511.04599)
 
 **Black-box Attacks**
-- Zeroth Order Optimization (ZOO)
-- HopSkipJump (HSJ)
-- Boundary Attack
+- Zeroth Order Optimization (ZOO) ()
+- HopSkipJump (HSJ) (https://arxiv.org/abs/1904.02144)
+- Boundary Attack (https://arxiv.org/abs/1712.04248)
 
 All attacks implemented using:
 - **[Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)**
