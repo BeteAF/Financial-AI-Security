@@ -1,7 +1,7 @@
 ## Overview
 
 This directory focuses on Adversarial Machine Learning Attacks against tabular data credit scoring models. 
-It contains 10 evasion attack notebooks — 7 white-box (FGM, BIM, PGD, C&W, EAD, JSMA, DeepFool) and 3 black-box (ZOO, HSJ, Boundary Attack) — along with planned work on Model Extraction, Inference, and Poisoning attacks.
+It contains 10 evasion attack notebooks: 7 white-box (FGM, BIM, PGD, C&W, EAD, JSMA, DeepFool) and 3 black-box (ZOO, HSJ, Boundary Attack) along with planned work on Model Extraction, Inference, and Poisoning attacks.
 
 The primary goals are to:
 - Demonstrate practical implementations of adversarial attacks on financial AI systems.
