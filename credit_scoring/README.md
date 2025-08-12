@@ -14,7 +14,7 @@ The primary goals are to:
 
 ### 1. Evasion Attacks on Credit Scoring Models (Tabular Data)
 **White-box Attacks**
-- Fast Gradient Method (FGM)
+- Fast Gradient Method (FGM) (https://arxiv.org/abs/1412.6572)
 - Basic Iterative Method (BIM)
 - Projected Gradient Descent (PGD)
 - Carlini & Wagner (C&W)
