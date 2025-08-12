@@ -59,11 +59,6 @@ Dataset: **German Credit Dataset** (tabular classification task)
   - Simulated malicious API consumers
   - Throttling and query monitoring
 
-### Expansion Beyond Credit Scoring
-- Image-based AI systems
-- NLP-based AI systems
-- Agentic AI security scenarios
-
 ---
 
 ## Project Structure
