@@ -125,8 +125,4 @@ Dataset: **German Credit Dataset** (tabular classification task)
    - offensive_tests/
      - membership_inference_api_red_team.ipynb
      - README.md
-   - utils/
-     - data_preprocessing.py
-     - model_utils.py
-     - attack_utils.py
- - LICENSE
+ - README
