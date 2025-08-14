@@ -76,7 +76,7 @@ Dataset: **German Credit Dataset** (tabular classification task)
      - credit_scoring_model_german_dataset---logistic_regression.ipynb
      - credit_scoring_model_german_dataset---random_forest.ipynb
      - credit_scoring_model_german_dataset---xgboost.ipynb
-     - saved_models/
+   - saved_models/
        - logistic_regression.joblib
        - random_forest.joblib
        - xgboost.joblib
