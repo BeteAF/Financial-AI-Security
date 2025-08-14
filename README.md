@@ -35,7 +35,7 @@ All attacks implemented using:
 - **[Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)**
 - **[Foolbox](https://github.com/bethgelab/foolbox)** (planned for cross-framework comparison)
 
-Dataset: **[German Credit Dataset]**(https://www.kaggle.com/datasets/uciml/german-credit) (tabular classification task) 
+Dataset: **[German Credit Dataset](https://www.kaggle.com/datasets/uciml/german-credit)** (tabular classification task) 
 
 ---
 
