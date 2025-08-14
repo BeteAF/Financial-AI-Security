@@ -72,7 +72,6 @@ Dataset: **German Credit Dataset** (tabular classification task)
 
 ## Project Structure
 
- - credit_scoring/
    - models/
      - credit_scoring_model_german_dataset---logistic_regression.ipynb
      - credit_scoring_model_german_dataset---random_forest.ipynb
@@ -138,4 +137,3 @@ Dataset: **German Credit Dataset** (tabular classification task)
      - data_preprocessing.py
      - model_utils.py
      - attack_utils.py
- - LICENSE
