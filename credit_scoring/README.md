@@ -14,24 +14,24 @@ The primary goals are to:
 
 ### 1. Evasion Attacks on Credit Scoring Models (Tabular Data)
 **White-box Attacks**
-- Fast Gradient Method (FGM) (https://arxiv.org/abs/1412.6572)
-- Basic Iterative Method (BIM) (https://arxiv.org/abs/1607.02533)
-- Projected Gradient Descent (PGD) (https://arxiv.org/abs/1706.06083)
-- Carlini & Wagner (C&W) (https://arxiv.org/abs/1608.04644)
-- ElasticNet Attack (EAD) (https://arxiv.org/abs/1709.04114)
-- Jacobian-based Saliency Map Attack (JSMA) (https://arxiv.org/abs/1511.07528)
-- DeepFool (https://arxiv.org/abs/1511.04599)
+- **[Fast Gradient Method (FGM)](https://arxiv.org/abs/1412.6572)**
+- **[Basic Iterative Method (BIM)](https://arxiv.org/abs/1607.02533)**
+- **[Projected Gradient Descent (PGD)](https://arxiv.org/abs/1706.06083)**
+- **[Carlini & Wagner (C&W)](https://arxiv.org/abs/1608.04644)**
+- **[ElasticNet Attack (EAD)](https://arxiv.org/abs/1709.04114)**
+- **[Jacobian-based Saliency Map Attack (JSMA)](https://arxiv.org/abs/1511.07528)**
+- **[DeepFool](https://arxiv.org/abs/1511.04599)**
 
 **Black-box Attacks**
-- Zeroth Order Optimization (ZOO) (https://arxiv.org/abs/1708.03999)
-- HopSkipJump (HSJ) (https://arxiv.org/abs/1904.02144)
-- Boundary Attack (https://arxiv.org/abs/1712.04248)
+- **[Zeroth Order Optimization (ZOO)](https://arxiv.org/abs/1708.03999)**
+- **[HopSkipJump (HSJ)](https://arxiv.org/abs/1904.02144)**
+- **[Boundary Attack](https://arxiv.org/abs/1712.04248)**
 
 All attacks implemented using:
 - **[Adversarial Robustness Toolbox (ART)](https://github.com/Trusted-AI/adversarial-robustness-toolbox)**
 - **[Foolbox](https://github.com/bethgelab/foolbox)** (planned for cross-framework comparison)
 
-Dataset: **German Credit Dataset** (tabular classification task)
+Dataset: **[German Credit Dataset](https://www.kaggle.com/datasets/uciml/german-credit)** (tabular classification task) 
 
 ---
 
